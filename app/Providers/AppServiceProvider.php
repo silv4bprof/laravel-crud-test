@@ -23,5 +23,6 @@ class AppServiceProvider extends ServiceProvider
     {
         Paginator::useBootstrapFive();
         Schema::defaultStringLength(191);
+        resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
     }
 }
