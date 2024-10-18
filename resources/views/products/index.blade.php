@@ -47,7 +47,7 @@
                                             class="btn btn-primary btn-sm"><i class="bi bi-pencil-square"></i></a>
 
                                         <button type="submit" class="btn btn-danger btn-sm"
-                                            onclick="return confirm('Do you want to delete this product?');"><i
+                                            onclick="return confirm('Você quer remover esse produto?');"><i
                                                 class="bi bi-trash"></i></button>
                                     </form>
                                 </td>
@@ -55,7 +55,7 @@
                         @empty
                             <td colspan="6">
                                 <span class="text-danger">
-                                    <strong>No Product Found!</strong>
+                                    <strong>Produto não encontrado!</strong>
                                 </span>
                             </td>
                         @endforelse

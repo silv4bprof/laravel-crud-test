@@ -63,7 +63,7 @@ class ProductController extends Controller
         $product->update($request->validated());
 
         return redirect()->back()
-            ->withSuccess('Product is updated successfully.');
+            ->withSuccess('Produto atualizado com sucesso!');
     }
 
     /**
@@ -74,6 +74,6 @@ class ProductController extends Controller
         $product->delete();
 
         return redirect()->route('products.index')
-            ->withSuccess('Product is deleted successfully.');
+            ->withSuccess('Produto removido com sucesso!');
     }
 }
