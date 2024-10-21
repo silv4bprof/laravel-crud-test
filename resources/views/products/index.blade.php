@@ -20,7 +20,7 @@
                     <thead>
                         <tr>
                             <th scope="col">#</th>
-                            <th scope="col">Cód.e</th>
+                            <th scope="col">Cód.</th>
                             <th scope="col">Nome</th>
                             <th scope="col">Quantidade</th>
                             <th scope="col">Preço</th>

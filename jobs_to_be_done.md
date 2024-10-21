@@ -1,3 +1,5 @@
+# Jobs to be done
+
 - Download the project (or clone using GIT)
 - Copy .env.example into .env and configure your database credentials
 - Go to the project's root directory using terminal window/command prompt

@@ -2,14 +2,6 @@
 
 ![Vercel](https://vercelbadge.vercel.app/api/silv4bprof/laravel-crud-test)
 
-Learn how to develop a simple Laravel 11 CRUD application
-
-> The complete tutorial step by step guide is available on my blog. [Laravel 11 CRUD Application](https://www.allphptricks.com/simple-laravel-11-crud-application-tutorial/)
-
-## Blog
-
-<https://www.allphptricks.com/>
-
 ## Installation
 
 Make sure that you have setup the environment properly. You will need minimum PHP 8.2, MySQL/MariaDB, and composer.
@@ -22,3 +14,7 @@ Make sure that you have setup the environment properly. You will need minimum PH
 6. Run migrations `php artisan migrate`
 7. Start local server by executing `php artisan serve`
 8. Visit here [http://127.0.0.1:8000/products](http://127.0.0.1:8000/products) to test the application
+
+## Test Deploy
+
+[Tutorial](./tutorial.md)
